@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #000000;
+    font-size: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;    
+    width: 100%;
+}
+
+/*============================*/
+/*Navbar Styles*/
+
+.nav h1 {
+    flex-basis: 30%;
+    margin: 20px;
+    text-align: center;
+}
+
+.nav .extra-space {
+    flex-basis: 40%;
+}
+
+.nav .section-links a {
+    color: #FFFFFF;
+    flex-basis: 30%;
+    margin: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav a :hover {
+    text-decoration: underline;
+}
+
+.nav {
+    align-items: center;
+    background-color: green;   
+    color: #FFFFFF; 
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.section-links {
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav h1 {
+        margin: 0px;
+    }
+
+    .nav h3 {
+        margin: 0px;
+    }
+
+}
+
+/*=================================*/
+/*Header Styles*/
+
+.header {
+    background-color: #FFFFFF;
+    display: inline-block;
+    margin: 125px 5% 5%;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 90%; 
+}
+
+.header-name strong {
+    font-size: 4rem;
+}
+
+.header-name {
+    font-size: 2rem;
+    margin-bottom: 1vw;
+}
+
+.header-title p {
+    color: white;
+    font-size: 4rem;   
+}
+
+/*==========================*/
+/*About Me Section*/
+
+#picture {
+    display: inline-block;
+    margin: 5% 10%;
+    padding-top: 125px;
+    width: 80%;
+}
+
+#picture img {
+    height: auto;
+    width: 100%;
+}
+
+#about {
+    display: inline-block;
+    margin: 0 5%;
+    text-align: center;
+    width: 90%;
+}
+
+#about p {
+    color: #00e600;
+    font-size: 1.5rem;
+    height: auto;
+    margin: 0;
+    text-align: center;
+}
+
+/*========================*/
+/*Experience Section*/
+
+#experience {
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 0 5%;
+    padding-top: 125px;
+    text-align: center;
+    width: 90%;
+    font-size: 1.5rem;
+}
+
+#experience div {
+    vertical-align: top;
+}
+
+.example {
+    border: 2px solid grey;
+    display: inline-block;
+    margin: 5% 2.5%;
+    text-align: center;
+    width: 25%;
+}
+
+.example p {
+    font-size: 1.5rem;
+}
+
+.example-image {
+    height: auto;
+    width: 100%;
+}
+
+.qgem-website img {
+    background-color: #00a8f3;
+}
+
+@media only screen and (max-width: 1200px) {
+    .example {
+        display: block;
+        margin: 5%;
+        width: 90%;
+    }
+}
+
+/*===============================*/
+/*Footer Section*/
+
+#footer {
+    background-color: #FFFFFF;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+.email-link {
+     height: auto;
+     width: 5%; 
+}
+
+@media only screen and (max-width: 992px) {
+.email-link {
+        width: 7%;
+    }
+}
+
+/*================================================*/
+/*Font size adjustment for small screens*/
+
+@media only screen and (max-width: 600px) {
+.header-name strong {
+        font-size: 2rem;
+}
+
+.header-name {
+        font-size: 1rem;
+}
+
+.header-title p {
+        color: white;
+        font-size: 2rem;   
+}
+
+#about p {
+        font-size: 1rem;
+}
+
+
+#experience {
+        font-size: 1rem;
+}
+
+.example p {
+    font-size: 1rem;
+}
+
+#footer {
+        font-size: 1rem;
+}
+
+}
+
+
