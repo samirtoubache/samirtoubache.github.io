@@ -158,6 +158,7 @@ html, body {
 
 .example p {
     font-size: 1.5rem;
+    margin: 5%;
 }
 
 .example-image {
