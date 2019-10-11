@@ -27,7 +27,7 @@ html, body {
 .nav .section-links a {
     color: #FFFFFF;
     flex-basis: 30%;
-    margin: 10px;
+    margin: 0 5px;
 }
 
 .nav a {
@@ -54,15 +54,17 @@ html, body {
     align-items: center;
     color: #FFFFFF;
     display: flex;
+    flex-basis: 50%;
     flex-direction: row;
     justify-content: center;
+    padding: 5px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
 
     .nav {
         flex-direction: column;
-        padding: 10px;
     }
 
     .nav h1 {
