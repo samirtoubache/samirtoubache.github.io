@@ -80,10 +80,19 @@ html, body {
 /*=================================*/
 /*Header Styles*/
 
+.silver-background {
+    background-image: linear-gradient(to bottom right, #FFFFFF, #d9d9d9);
+    display: inline-block;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 100%; 
+}
+
 .header {
     background-color: #FFFFFF;
     display: inline-block;
     margin: 125px 5% 5%;
+    opacity: 0.9;
     padding-bottom: 5px;
     text-align: center;
     width: 90%; 
@@ -120,7 +129,7 @@ html, body {
 
 #about {
     display: inline-block;
-    margin: 0 5%;
+    margin: 5%;
     text-align: center;
     width: 90%;
 }
@@ -137,7 +146,7 @@ html, body {
 /*Experience Section*/
 
 #experience {
-    color: #FFFFFF;
+    color: #000000;
     display: inline-block;
     margin: 0 5%;
     padding-top: 125px;
